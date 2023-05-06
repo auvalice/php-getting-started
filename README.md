@@ -10,15 +10,15 @@ XAMPP is stupid in a way; it does **not** set environment variables. Environment
 
 1. Open the environment variables window. You can find this setting extremely easily by searching for "env" in your start menu search.
 
-![](./path1.png)
+![](img/path1.png)
 
 2. Go to Environment Variables.
 
-![](./path2.png)
+![](img/path2.png)
 
 3. In the window that pops up, you want to find the Path variable and press Edit.
 
-![](./path3.png)
+![](img/path3.png)
 
 4. Add the following entries at the bottom:
     - `C:\xampp\php`
@@ -28,7 +28,7 @@ You can now press OK on all popups to close everything. If you have something op
 
 Now, find XAMPP and open it as administrator.
 
-![](./xampp1.png)
+![](img/xampp1.png)
 
 You will want to configure Apache and MySQL as services: this makes it so both are started when your computer is started and takes away some friction every time you start your PC and want to do some programming work.
 
@@ -41,14 +41,7 @@ You'll probably notice there's no PHP service. That's because the Apache webserv
 
 Make sure you have a decent code editor. Do you use Visual Studio for everything, or is VSCode (VSC) fine too? I'm writing this up in VSC.
 
-If you use VSC; you probably want to edit some settings. Go to `File > Preferences > Settings` and search for `php`. Click on `Edit in settings.json` under the executable path. This file should contain a line like so:
-
-```json
-{
-    // There could be other lines before or after this line
-    "php.validate.executablePath": "C:/xampp/php/php.exe"
-}
-```
+If you use VSC; you probably want to install `PHP Intelephense`. Follow its instructions, and ignore the paid features.
 
 ## Writing a new application
 

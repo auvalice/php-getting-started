@@ -1,0 +1,5 @@
+# Credit https://github.com/phprouter/main
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.webp|\.gif|\.jpeg|\.zip|\.css|\.svg|\.js|\.pdf)$
+RewriteRule (.*) routes.php [QSA,L]
