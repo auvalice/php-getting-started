@@ -2,9 +2,10 @@
 
 require_once __DIR__ . '/router.php';
 
+get('/', 'web/index');
 
-get('/api/persons', 'api/persons/index');
-get('/api/persons/$id', 'api/persons/[id]');
+get('/api/persons', 'php/api/persons/index');
+get('/api/persons/$id', 'php/api/persons/[id]');
 
 // ##################################################
 // ##################################################

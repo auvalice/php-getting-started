@@ -10,15 +10,15 @@ XAMPP is stupid in a way; it does **not** set environment variables. Environment
 
 1. Open the environment variables window. You can find this setting extremely easily by searching for "env" in your start menu search.
 
-![](img/path1.png)
+![](z_resources/img/path1.png)
 
 2. Go to Environment Variables.
 
-![](img/path2.png)
+![](z_resources/img/path2.png)
 
 3. In the window that pops up, you want to find the Path variable and press Edit.
 
-![](img/path3.png)
+![](z_resources/img/path3.png)
 
 4. Add the following entries at the bottom:
     - `C:\xampp\php`
@@ -28,7 +28,7 @@ You can now press OK on all popups to close everything. If you have something op
 
 Now, find XAMPP and open it as administrator.
 
-![](img/xampp1.png)
+![](z_resources/img/xampp1.png)
 
 You will want to configure Apache and MySQL as services: this makes it so both are started when your computer is started and takes away some friction every time you start your PC and want to do some programming work.
 
