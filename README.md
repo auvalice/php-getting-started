@@ -80,3 +80,7 @@ If you visit http://localhost now, you should be greeted by the PHP info page. I
 ![](php1.png)
 
 (Note: This application will only serve as a backend, so you probably won't have to write any pages you directly navigate to.)
+
+## Code inside this repository
+
+The code inside this repository shows a simple example of how to configure both a front- and backend to be served from Apache, calling the local API that's provided entirely from PHP while the frontend itself can very simply be cut out and hosted elsewhere (Just make sure to update the fetch URL in the frontend example).
